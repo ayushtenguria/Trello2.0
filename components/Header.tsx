@@ -9,8 +9,8 @@ export const Header = () => {
   return (
     <header>
       <div className="flex flex-col md:flex-row items-center p-5  bg-gray-500/10 rounded-b-2xl">
-        <div 
-         className="
+        <div
+          className="
          absolute
          top-0
          left-0
@@ -25,7 +25,7 @@ export const Header = () => {
          -z-50
          opacity-50
          "
-         />
+        />
         <Image
           src={img}
           alt="Sample Image"
